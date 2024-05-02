@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Abigail Julian - Curriculum Vitae</title>
+<title>Abigail Julian, PhD</title>
 
 <meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Curriculum Vitae of Abigail Julian."/>
+<meta name="description" content="The Personal Webpage of Abigail Julian."/>
 <meta charset="UTF-8"> 
 
 <link type="text/css" rel="stylesheet" href="style.css">
@@ -18,17 +18,17 @@
 <div id="cv" class="instaFade">
 	<div class="mainDetails">
 		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Alan Smith" />
+			<img src="headshot.jpg" alt="Abigail Julian" />
 		</div>
 		
 		<div id="name">
-			<h1 class="quickFade delayTwo">Abigail Julian</h1>
-			<h2 class="quickFade delayThree">PhD Student</h2>
+			<h1 class="quickFade delayTwo">Abigail Julian, PhD</h1>
+			<h2 class="quickFade delayThree">Educator and Lover of Data</h2>
 		</div>
 		
 		<div id="contactDetails" class="quickFade delayFour">
 			<ul>
-				<li>akrobe4 AT emory DOT edu</li>
+				<li>abigail DOT julian AT emory DOT edu</li>
 				<li>Atlanta, GA</li>
 			</ul>
 		</div>
@@ -43,10 +43,13 @@
 				</div>
 				
 				<div class="sectionContent">
-					<p>I am a first-year PhD student in <a href=http://www.cs.emory.edu/graduate/general-information/>Computer Science and Informatics at Emory University</a>. I am interested in researching numerical linear algebra and its applications to other areas of Computer Science. I am also interested in Computer Science Education and strategies for effectively teaching students who have grown up in the "age of technology." I love quiet mornings with a cup of coffee, trying out new dinner recipes, and exploring Atlanta with my husband.</p>
+					<p>I am an educator, passionate about strategies for effectively teaching students who have grown up in the "age of technology." I also love data and all that it can teach us about the world. I love quiet mornings with a cup of coffee, trying out new dinner recipes, and exploring Atlanta with my husband.</p>
 				</div>
 			</article>
 			<div class="clear"></div>
+			<div id="colorbox">
+			I am currently looking for part-time, full-time, and/or project-based opportunities for Summer 2024 to bridge the gap between graduation and the start of my full-time teaching career. Reach out if interested!
+			</div>
 		</section>
 
 
@@ -58,8 +61,9 @@
 			<div class="sectionContent">
 				<article>
 					<h2>Emory University</h2>
-					<p class="subDetails">2019 - Present</p>
-					<p>PhD in Computer Science and Informatics<br> Women in Natural Sciences Fellow</p>
+					<p class="subDetails">2019 - 2024</p>
+					<p>PhD in Computer Science and Informatics<br> National Science Foundation Graduate Research Fellow<br> Women in Natural Sciences Fellow
+					<br> <i>Thesis Title:</i> Automatic Hyperparameter Tuning in Physics-Based Distortion Correction for Diffusion Tensor Imaging</p>
 				</article>
 				
 				<article>
@@ -73,23 +77,19 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Research</h1>
+				<h1>Project Experience</h1>
 			</div>
 			
 			<div class="sectionContent">
 				<article>
-					<h2>Building a GAN for Systems Workloads</h2>
-					<p class="subDetails">Fall 2019 - Present</p>
-					<p class="subDetails">with Professor Avani Wildani and Vishwanath Seshagiri</p>
-					<p>Being able to predict the type of workloads a system might encounter can help design more effective and efficient systems protocols. However, workload datasets are incredibly private (because of the proprietary information it might disclose), and the few publically availble datasets are not enough to lead to good predictive models. We hope to build a Generative Adversarial Network that can generate synthetic but informative workloads that could be used in workload prediction models.</p>
+					<h2>Automatic Hyperparameter Tuning in Physics-Based Distortion Correction for Diffusion Tensor Imaging</h2>
+					<p class="subDetails">2020-2024</p>
+					<p class="subDetails">with Dr. Lars Ruthotto</p>
+					<p>My thesis work focused on solving a difficult optimization problem for susceptibility artifact distortion correction in spin-echo echo-planar imaging. I developed a software tool in PyTorch with improved computational efficiency to solve the 3D distortion correction problem in seconds. Extending this work to 4D diffusion tensor imaging settings made 4D distortion correction possible, and using diffusion tensor imaging metrics we enable automatic hyperparameter tuning.
+						<br> Work presented at <a href="https://www.siam.org/conferences/cm/conference/is22">SIAM Imaging Science 2022</a>, <a href="https://www.siam.org/conferences/cm/conference/mds22">SIAM Mathematics of Data Science 2022</a>, <a href="https://www.ams.org/meetings/sectional/2298_program.html">AMS Sectional Meeting 2023</a>, <a href="https://www.siam.org/conferences/cm/conference/op23">SIAM Optimization 2023</a>.
+					<br> 3D Distortion Correction Tool PyHySCO <a href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1406821/abstract">Published in Frontiers in Neuroscience: Brain Imaging Methods</a>; <a href="https://github.com/EmoryMLIP/PyHySCO">Code available on Github</a>; <a href="https://pypi.org/project/PyHySCO/">Install via pip</a> </p>
 				</article>
 
-				<article>
-					<h2>How Introductory Computer Science Students Develop Programming Style</h2>
-					<p class="subDetails">Fall 2019 - Present</p>
-					<p class="subDetails">with Professor Davide Fossati, Professor Navid Hashemi, and Malvern Madondo</p>
-					<p>Emory University's introductory Computer Science course uses a system called QTest where students are able to type and execute code from within the system. We are interested in analyzing the data collected by QTest, including the temporal data of how a student created and edited a piece of code, to learn more about how students new to Computer Science develop coding strategies and style.</p>
-				</article>
 
 				<article>
 					<h2>Anki for First-Year Medical School Anatomy</h2>
@@ -104,13 +104,21 @@
 					<p class="subDetails">with Dr. Douglas H. Fisher, Emily Markert, and Kamala Varma</p>
 					<p>The Region Radio project is an on-going project at Vanderbilt University investigating how Artifical Intelligence can be used to created a road trip storyteller that curates a playlist of stories, timed to the trip, that will tell stories about a place as you drive past that place. While working on this project, I looked at how to use Natural Language Processing to introduce and provide context for stories, as well as how to use techniques from Information Retrieval to characterize and measure relevance between a physical place and a text.</br>Late Breaking Paper in <a href=http://computationalcreativity.net/iccc2019/assets/iccc_proceedings_2019.pdf>Proceedings of the 10th International Conference on Computational Creativity</a> (pages 336-340)</br>Poster presented at <a href=http://www.compsust.net/compsust-2018/>2018 Doctoral Consortium on Computational Sustainability</a></p>
 				</article>
-				
+
 				<article>
-					<h2>Election Control Algorithmic Complexity</h2>
-					<p class="subDetails">2017 - 2018</p>
-					<p class="subDetails">with Dr. Yevgeniy Vorobeychik</p>
-					<p>Given a set of voting districts and a maximum number of votes to change at each district, we proved that it is NP-Hard to determine at which districts to change votes in order to change the outcome of an election. This is consistent with similar results in other situations of election control algorithmitc study.</p>
+					<h2>Development Analyst Intern</h2>
+					<p class="subDetails">Winthrop Capital Management</p>
+					<p class="subDetails">Summer 2017</p>
+					<p>I worked with a team developing in C# a proprietary risk analytics and reporting software called <a href=http://winthropts.com/solutions/>WOMBAT</a>. Personally, I developed functionality to calculate returns, performance, and correlations for portfolios and securities based on industry standards.</p>
 				</article>
+
+				<article>
+					<h2>Analytics Intern</h2>
+					<p class="subDetails">FORCE Communications</p>
+					<p class="subDetails">Summer 2016</p>
+					<p>I provided business and technological support to the Customer Relations team, and I developed a program for automatically indexing the files on the company server across various teams and projects. I was responsible for maintaining a database of Immunology Thought Leaders and associated publications, and I also analyzed, wrote, and edited process documents for project management and technology services.</p>
+				</article>
+
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -119,13 +127,21 @@
 			<div class="sectionTitle">
 				<h1>Teaching</h1>
 			</div>
-			
+
 			<div class="sectionContent">
+				<article>
+					<h2>CS 171: Introduction to Computer Science II</h2>
+					<p class="subDetails">Emory University</p>
+					<p class="subDetails">Instructor of Record</p>
+					<p class="subDetails">Spring 2020, Spring 2022, Spring 2023, Fall 2023</p>
+					<p></p>
+				</article>
+
 				<article>
 					<h2>CS 170: Introduction to Computer Science I</h2>
 					<p class="subDetails">Emory University</p>
-					<p class="subDetails">Graduate Teaching Assistant</p>
-					<p class="subDetails">Fall 2019</p>
+					<p class="subDetails">Graduate Teaching Assistant and Lab Instructor</p>
+					<p class="subDetails">Fall 2019, Fall 2021</p>
 					<p></p>
 				</article>
 				
@@ -150,37 +166,12 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Work Experience</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>Development Analyst Intern</h2>
-					<p class="subDetails">Winthrop Capital Management</p>
-					<p class="subDetails">Summer 2017</p>
-					<p>I worked with a team developing in C# a proprietary risk analytics and reporting software called <a href=http://winthropts.com/solutions/>WOMBAT</a>. Personally, I developed functionality to calculate returns, performance, and correlations for portfolios and securities based on industry standards.</p>
-				</article>
-				
-				<article>
-					<h2>Analytics Intern</h2>
-					<p class="subDetails">FORCE Communications</p>
-					<p class="subDetails">Summer 2016</p>
-					<p>I provided business and technological support to the Customer Relations team, and I developed a program for automatically indexing the files on the company server across various teams and projects. I was responsible for maintaining a database of Immunology Thought Leaders and associated publications, and I also analyzed, wrote, and edited process documents for project management and technology services.</p>
-				</article>
-			
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
 				<h1>Skills</h1>
 			</div>
 			
 			<div class="sectionContent">
 				<ul class="keySkills">
-					<li>Python</li>
+					<li>Python (including Numpy, PyTorch, & Pandas Libraries)</li>
 					<li>C++</li>
 					<li>C#</li>
 					<li>C</li>
